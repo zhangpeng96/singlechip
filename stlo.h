@@ -7,7 +7,7 @@ void delay (unsigned int ms);
 // declaration
 void delay (unsigned int ms) {
     while ( ms-- ) {
-        unsigned int j = 578;
+        unsigned int j = 568;
         // suitable for 12C5A60S2, 12MHz
         while ( j-- );
     }
