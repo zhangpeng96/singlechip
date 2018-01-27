@@ -1,0 +1,869 @@
+---- EQU SUPPLY  Observe supply limit at plant i
+
+             LOWER     LEVEL     UPPER    MARGINAL
+
+SEATTLE       -INF     22.000    22.000      EPS       
+SAN-DIEGO     -INF     15.420    27.000      .         
+
+---- EQU DEMAND  Satisfy demand at market j
+
+         LOWER     LEVEL     UPPER    MARGINAL
+
+LOAD1    12.796    12.796     +INF   1000.000      
+LOAD2    16.664    16.664     +INF   1000.000      
+LOAD3     7.960     7.960     +INF   1000.000      
+
+---- VAR X  Shipment quantities in cases
+
+                   LOWER     LEVEL     UPPER    MARGINAL
+
+SEATTLE  .LOAD1      .         .        +INF       EPS       
+SEATTLE  .LOAD2      .       14.040     +INF       .         
+SEATTLE  .LOAD3      .        7.960     +INF       .         
+SAN-DIEGO.LOAD1      .       12.796     +INF       .         
+SAN-DIEGO.LOAD2      .        2.624     +INF       .         
+SAN-DIEGO.LOAD3      .         .        +INF       EPS       
+
+                       LOWER     LEVEL     UPPER    MARGINAL
+
+---- VAR Z              -INF  37419.990     +INF       .         
+
+  Z  Total transportation costs in thousands of dollars
+
+
+
+
+  ---- EQU SUPPLY  Observe supply limit at plant i
+
+             LOWER     LEVEL     UPPER    MARGINAL
+
+SEATTLE       -INF     22.000    22.000      EPS       
+SAN-DIEGO     -INF     13.708    27.000      .         
+
+---- EQU DEMAND  Satisfy demand at market j
+
+         LOWER     LEVEL     UPPER    MARGINAL
+
+LOAD1    13.192    13.192     +INF   1000.000      
+LOAD2     7.389     7.389     +INF   1000.000      
+LOAD3    15.127    15.127     +INF   1000.000      
+
+---- VAR X  Shipment quantities in cases
+
+                   LOWER     LEVEL     UPPER    MARGINAL
+
+SEATTLE  .LOAD1      .         .        +INF       EPS       
+SEATTLE  .LOAD2      .        6.873     +INF       .         
+SEATTLE  .LOAD3      .       15.127     +INF       .         
+SAN-DIEGO.LOAD1      .       13.192     +INF       .         
+SAN-DIEGO.LOAD2      .        0.516     +INF       .         
+SAN-DIEGO.LOAD3      .         .        +INF       EPS       
+
+                       LOWER     LEVEL     UPPER    MARGINAL
+
+---- VAR Z              -INF  35708.090     +INF       .         
+
+  Z  Total transportation costs in thousands of dollars
+
+
+
+
+  ---- EQU SUPPLY  Observe supply limit at plant i
+
+             LOWER     LEVEL     UPPER    MARGINAL
+
+SEATTLE       -INF     22.000    22.000      EPS       
+SAN-DIEGO     -INF     17.819    27.000      .         
+
+---- EQU DEMAND  Satisfy demand at market j
+
+         LOWER     LEVEL     UPPER    MARGINAL
+
+LOAD1    13.918    13.918     +INF   1000.000      
+LOAD2    11.983    11.983     +INF   1000.000      
+LOAD3    13.918    13.918     +INF   1000.000      
+
+---- VAR X  Shipment quantities in cases
+
+                   LOWER     LEVEL     UPPER    MARGINAL
+
+SEATTLE  .LOAD1      .         .        +INF       EPS       
+SEATTLE  .LOAD2      .        8.082     +INF       .         
+SEATTLE  .LOAD3      .       13.918     +INF       .         
+SAN-DIEGO.LOAD1      .       13.918     +INF       .         
+SAN-DIEGO.LOAD2      .        3.901     +INF       .         
+SAN-DIEGO.LOAD3      .         .        +INF       EPS       
+
+                       LOWER     LEVEL     UPPER    MARGINAL
+
+---- VAR Z              -INF  39818.583     +INF       .         
+
+  Z  Total transportation costs in thousands of dollars
+
+
+
+  ---- EQU SUPPLY  Observe supply limit at plant i
+
+             LOWER     LEVEL     UPPER    MARGINAL
+
+SEATTLE       -INF     22.000    22.000      EPS       
+SAN-DIEGO     -INF      9.868    27.000      .         
+
+---- EQU DEMAND  Satisfy demand at market j
+
+         LOWER     LEVEL     UPPER    MARGINAL
+
+LOAD1    14.169    14.169     +INF   1000.000      
+LOAD2    11.268    11.268     +INF   1000.000      
+LOAD3     6.432     6.432     +INF   1000.000      
+
+---- VAR X  Shipment quantities in cases
+
+                   LOWER     LEVEL     UPPER    MARGINAL
+
+SEATTLE  .LOAD1      .        4.301     +INF       .         
+SEATTLE  .LOAD2      .       11.268     +INF       .         
+SEATTLE  .LOAD3      .        6.432     +INF       .         
+SAN-DIEGO.LOAD1      .        9.868     +INF       .         
+SAN-DIEGO.LOAD2      .         .        +INF       EPS       
+SAN-DIEGO.LOAD3      .         .        +INF       EPS       
+
+                       LOWER     LEVEL     UPPER    MARGINAL
+
+---- VAR Z              -INF  31868.407     +INF       .         
+
+  Z  Total transportation costs in thousands of dollars
+
+
+
+
+
+
+---- EQU SUPPLY  Observe supply limit at plant i
+
+             LOWER     LEVEL     UPPER    MARGINAL
+
+SEATTLE       -INF     22.000    22.000      EPS       
+SAN-DIEGO     -INF     26.001    27.000      .         
+
+---- EQU DEMAND  Satisfy demand at market j
+
+         LOWER     LEVEL     UPPER    MARGINAL
+
+LOAD1    14.711    14.711     +INF   1000.000      
+LOAD2    13.744    13.744     +INF   1000.000      
+LOAD3    19.547    19.547     +INF   1000.000      
+
+---- VAR X  Shipment quantities in cases
+
+                   LOWER     LEVEL     UPPER    MARGINAL
+
+SEATTLE  .LOAD1      .         .        +INF       EPS       
+SEATTLE  .LOAD2      .        2.453     +INF       .         
+SEATTLE  .LOAD3      .       19.547     +INF       .         
+SAN-DIEGO.LOAD1      .       14.711     +INF       .         
+SAN-DIEGO.LOAD2      .       11.290     +INF       .         
+SAN-DIEGO.LOAD3      .         .        +INF       EPS       
+
+                       LOWER     LEVEL     UPPER    MARGINAL
+
+---- VAR Z              -INF  48000.881     +INF       .         
+
+  Z  Total transportation costs in thousands of dollars
+
+
+
+
+
+---- EQU SUPPLY  Observe supply limit at plant i
+
+             LOWER     LEVEL     UPPER    MARGINAL
+
+SEATTLE       -INF     22.000    22.000      EPS       
+SAN-DIEGO     -INF     14.298    27.000      .         
+
+---- EQU DEMAND  Satisfy demand at market j
+
+         LOWER     LEVEL     UPPER    MARGINAL
+
+LOAD1    15.001    15.001     +INF   1000.000      
+LOAD2    11.132    11.132     +INF   1000.000      
+LOAD3    10.165    10.165     +INF   1000.000      
+
+---- VAR X  Shipment quantities in cases
+
+                   LOWER     LEVEL     UPPER    MARGINAL
+
+SEATTLE  .LOAD1      .        0.703     +INF       .         
+SEATTLE  .LOAD2      .       11.132     +INF       .         
+SEATTLE  .LOAD3      .       10.165     +INF       .         
+SAN-DIEGO.LOAD1      .       14.298     +INF       .         
+SAN-DIEGO.LOAD2      .         .        +INF       EPS       
+SAN-DIEGO.LOAD3      .         .        +INF       EPS       
+
+                       LOWER     LEVEL     UPPER    MARGINAL
+
+---- VAR Z              -INF  36298.067     +INF       .         
+
+  Z  Total transportation costs in thousands of dollars
+
+
+
+
+
+
+
+---- EQU SUPPLY  Observe supply limit at plant i
+
+             LOWER     LEVEL     UPPER    MARGINAL
+
+SEATTLE       -INF     22.000    22.000      EPS       
+SAN-DIEGO     -INF     12.760    27.000      .         
+
+---- EQU DEMAND  Satisfy demand at market j
+
+         LOWER     LEVEL     UPPER    MARGINAL
+
+LOAD1    15.455    15.455     +INF   1000.000      
+LOAD2    12.554    12.554     +INF   1000.000      
+LOAD3     6.751     6.751     +INF   1000.000      
+
+---- VAR X  Shipment quantities in cases
+
+                   LOWER     LEVEL     UPPER    MARGINAL
+
+SEATTLE  .LOAD1      .        2.695     +INF       .         
+SEATTLE  .LOAD2      .       12.554     +INF       .         
+SEATTLE  .LOAD3      .        6.751     +INF       .         
+SAN-DIEGO.LOAD1      .       12.760     +INF       .         
+SAN-DIEGO.LOAD2      .         .        +INF       EPS       
+SAN-DIEGO.LOAD3      .         .        +INF       EPS       
+
+                       LOWER     LEVEL     UPPER    MARGINAL
+
+---- VAR Z              -INF  34760.259     +INF       .         
+
+  Z  Total transportation costs in thousands of dollars
+
+
+
+
+
+---- EQU SUPPLY  Observe supply limit at plant i
+
+             LOWER     LEVEL     UPPER    MARGINAL
+
+SEATTLE       -INF     22.000    22.000      EPS       
+SAN-DIEGO     -INF     23.718    27.000      .         
+
+---- EQU DEMAND  Satisfy demand at market j
+
+         LOWER     LEVEL     UPPER    MARGINAL
+
+LOAD1    15.562    15.562     +INF   1000.000      
+LOAD2    23.299    23.299     +INF   1000.000      
+LOAD3     6.857     6.857     +INF   1000.000      
+
+---- VAR X  Shipment quantities in cases
+
+                   LOWER     LEVEL     UPPER    MARGINAL
+
+SEATTLE  .LOAD1      .         .        +INF       EPS       
+SEATTLE  .LOAD2      .       15.143     +INF       .         
+SEATTLE  .LOAD3      .        6.857     +INF       .         
+SAN-DIEGO.LOAD1      .       15.562     +INF       .         
+SAN-DIEGO.LOAD2      .        8.157     +INF       .         
+SAN-DIEGO.LOAD3      .         .        +INF       EPS       
+
+                       LOWER     LEVEL     UPPER    MARGINAL
+
+---- VAR Z              -INF  45718.349     +INF       .         
+
+  Z  Total transportation costs in thousands of dollars
+
+
+
+
+
+  ---- EQU SUPPLY  Observe supply limit at plant i
+
+             LOWER     LEVEL     UPPER    MARGINAL
+
+SEATTLE       -INF     22.000    22.000      EPS       
+SAN-DIEGO     -INF     19.221    27.000      .         
+
+---- EQU DEMAND  Satisfy demand at market j
+
+         LOWER     LEVEL     UPPER    MARGINAL
+
+LOAD1    15.997    15.997     +INF   1000.000      
+LOAD2    17.931    17.931     +INF   1000.000      
+LOAD3     7.292     7.292     +INF   1000.000      
+
+---- VAR X  Shipment quantities in cases
+
+                   LOWER     LEVEL     UPPER    MARGINAL
+
+SEATTLE  .LOAD1      .         .        +INF       EPS       
+SEATTLE  .LOAD2      .       14.708     +INF       .         
+SEATTLE  .LOAD3      .        7.292     +INF       .         
+SAN-DIEGO.LOAD1      .       15.997     +INF       .         
+SAN-DIEGO.LOAD2      .        3.224     +INF       .         
+SAN-DIEGO.LOAD3      .         .        +INF       EPS       
+
+                       LOWER     LEVEL     UPPER    MARGINAL
+
+---- VAR Z              -INF  41220.986     +INF       .         
+
+  Z  Total transportation costs in thousands of dollars
+
+
+
+---- EQU SUPPLY  Observe supply limit at plant i
+
+             LOWER     LEVEL     UPPER    MARGINAL
+
+SEATTLE       -INF     22.000    22.000      EPS       
+SAN-DIEGO     -INF     34.067    27.000      .    INFES
+
+---- EQU DEMAND  Satisfy demand at market j
+
+         LOWER     LEVEL     UPPER    MARGINAL
+
+LOAD1    16.432    16.432     +INF   1000.000      
+LOAD2    21.268    21.268     +INF   1000.000      
+LOAD3    18.367    18.367     +INF   1000.000      
+
+---- VAR X  Shipment quantities in cases
+
+                   LOWER     LEVEL     UPPER    MARGINAL
+
+SEATTLE  .LOAD1      .         .        +INF       EPS       
+SEATTLE  .LOAD2      .        3.633     +INF       .         
+SEATTLE  .LOAD3      .       18.367     +INF       .         
+SAN-DIEGO.LOAD1      .       16.432     +INF       .         
+SAN-DIEGO.LOAD2      .       17.635     +INF       .         
+SAN-DIEGO.LOAD3      .         .        +INF       EPS       
+
+                       LOWER     LEVEL     UPPER    MARGINAL
+
+---- VAR Z              -INF  56067.118     +INF       .         
+
+  Z  Total transportation costs in thousands of dollars
+
+---10---
+
+
+  ---- EQU SUPPLY  Observe supply limit at plant i
+
+             LOWER     LEVEL     UPPER    MARGINAL
+
+SEATTLE       -INF     22.000    22.000      EPS       
+SAN-DIEGO     -INF     34.154    27.000      .    INFES
+
+---- EQU DEMAND  Satisfy demand at market j
+
+         LOWER     LEVEL     UPPER    MARGINAL
+
+LOAD1    17.428    17.428     +INF   1000.000      
+LOAD2    24.199    24.199     +INF   1000.000      
+LOAD3    14.527    14.527     +INF   1000.000      
+
+---- VAR X  Shipment quantities in cases
+
+                   LOWER     LEVEL     UPPER    MARGINAL
+
+SEATTLE  .LOAD1      .         .        +INF       EPS       
+SEATTLE  .LOAD2      .        7.473     +INF       .         
+SEATTLE  .LOAD3      .       14.527     +INF       .         
+SAN-DIEGO.LOAD1      .       17.428     +INF       .         
+SAN-DIEGO.LOAD2      .       16.726     +INF       .         
+SAN-DIEGO.LOAD3      .         .        +INF       EPS       
+
+                       LOWER     LEVEL     UPPER    MARGINAL
+
+---- VAR Z              -INF  56154.164     +INF       .         
+
+
+
+
+
+---- EQU SUPPLY  Observe supply limit at plant i
+
+             LOWER     LEVEL     UPPER    MARGINAL
+
+SEATTLE       -INF     22.000    22.000      EPS       
+SAN-DIEGO     -INF     39.251    27.000      .    INFES
+
+---- EQU DEMAND  Satisfy demand at market j
+
+         LOWER     LEVEL     UPPER    MARGINAL
+
+LOAD1    18.483    18.483     +INF   1000.000      
+LOAD2    26.220    26.220     +INF   1000.000      
+LOAD3    16.548    16.548     +INF   1000.000      
+
+---- VAR X  Shipment quantities in cases
+
+                   LOWER     LEVEL     UPPER    MARGINAL
+
+SEATTLE  .LOAD1      .         .        +INF       EPS       
+SEATTLE  .LOAD2      .        5.452     +INF       .         
+SEATTLE  .LOAD3      .       16.548     +INF       .         
+SAN-DIEGO.LOAD1      .       18.483     +INF       .         
+SAN-DIEGO.LOAD2      .       20.768     +INF       .         
+SAN-DIEGO.LOAD3      .         .        +INF       EPS       
+
+                       LOWER     LEVEL     UPPER    MARGINAL
+
+---- VAR Z              -INF  61251.175     +INF       .         
+
+  Z  Total transportation costs in thousands of dollars
+
+
+
+
+  ---- EQU SUPPLY  Observe supply limit at plant i
+
+             LOWER     LEVEL     UPPER    MARGINAL
+
+SEATTLE       -INF     22.000    22.000      EPS       
+SAN-DIEGO     -INF     35.682    27.000      .    INFES
+
+---- EQU DEMAND  Satisfy demand at market j
+
+         LOWER     LEVEL     UPPER    MARGINAL
+
+LOAD1    19.227    19.227     +INF   1000.000      
+LOAD2    25.998    25.998     +INF   1000.000      
+LOAD3    12.457    12.457     +INF   1000.000      
+
+---- VAR X  Shipment quantities in cases
+
+                   LOWER     LEVEL     UPPER    MARGINAL
+
+SEATTLE  .LOAD1      .         .        +INF       EPS       
+SEATTLE  .LOAD2      .        9.543     +INF       .         
+SEATTLE  .LOAD3      .       12.457     +INF       .         
+SAN-DIEGO.LOAD1      .       19.227     +INF       .         
+SAN-DIEGO.LOAD2      .       16.455     +INF       .         
+SAN-DIEGO.LOAD3      .         .        +INF       EPS       
+
+                       LOWER     LEVEL     UPPER    MARGINAL
+
+---- VAR Z              -INF  57682.300     +INF       .         
+
+  Z  Total transportation costs in thousands of dollars
+
+
+
+
+  ---- EQU SUPPLY  Observe supply limit at plant i
+
+             LOWER     LEVEL     UPPER    MARGINAL
+
+SEATTLE       -INF     22.000    22.000      EPS       
+SAN-DIEGO     -INF     36.030    27.000      .    INFES
+
+---- EQU DEMAND  Satisfy demand at market j
+
+         LOWER     LEVEL     UPPER    MARGINAL
+
+LOAD1    19.343    19.343     +INF   1000.000      
+LOAD2    15.475    15.475     +INF   1000.000      
+LOAD3    23.212    23.212     +INF   1000.000      
+
+---- VAR X  Shipment quantities in cases
+
+                   LOWER     LEVEL     UPPER    MARGINAL
+
+SEATTLE  .LOAD1      .         .        +INF       EPS       
+SEATTLE  .LOAD2      .       -1.212     +INF       .    INFES
+SEATTLE  .LOAD3      .       23.212     +INF       .         
+SAN-DIEGO.LOAD1      .       19.343     +INF       .         
+SAN-DIEGO.LOAD2      .       16.687     +INF       .         
+SAN-DIEGO.LOAD3      .         .        +INF       EPS       
+
+                       LOWER     LEVEL     UPPER    MARGINAL
+
+---- VAR Z              -INF  58030.483     +INF       .         
+
+  Z  Total transportation costs in thousands of dollars
+
+
+
+
+  ---- EQU SUPPLY  Observe supply limit at plant i
+
+             LOWER     LEVEL     UPPER    MARGINAL
+
+SEATTLE       -INF     22.000    22.000      EPS       
+SAN-DIEGO     -INF     35.460    27.000      .    INFES
+
+---- EQU DEMAND  Satisfy demand at market j
+
+         LOWER     LEVEL     UPPER    MARGINAL
+
+LOAD1    19.798    19.798     +INF   1000.000      
+LOAD2    17.864    17.864     +INF   1000.000      
+LOAD3    19.798    19.798     +INF   1000.000      
+
+---- VAR X  Shipment quantities in cases
+
+                   LOWER     LEVEL     UPPER    MARGINAL
+
+SEATTLE  .LOAD1      .         .        +INF       EPS       
+SEATTLE  .LOAD2      .        2.202     +INF       .         
+SEATTLE  .LOAD3      .       19.798     +INF       .         
+SAN-DIEGO.LOAD1      .       19.798     +INF       .         
+SAN-DIEGO.LOAD2      .       15.662     +INF       .         
+SAN-DIEGO.LOAD3      .         .        +INF       EPS       
+
+                       LOWER     LEVEL     UPPER    MARGINAL
+
+---- VAR Z              -INF  57459.850     +INF       .         
+
+  Z  Total transportation costs in thousands of dollars
+
+
+
+
+---- EQU SUPPLY  Observe supply limit at plant i
+
+             LOWER     LEVEL     UPPER    MARGINAL
+
+SEATTLE       -INF     22.000    22.000      EPS       
+SAN-DIEGO     -INF     28.709    27.000      .    INFES
+
+---- EQU DEMAND  Satisfy demand at market j
+
+         LOWER     LEVEL     UPPER    MARGINAL
+
+LOAD1    20.127    20.127     +INF   1000.000      
+LOAD2    18.193    18.193     +INF   1000.000      
+LOAD3    12.390    12.390     +INF   1000.000      
+
+---- VAR X  Shipment quantities in cases
+
+                   LOWER     LEVEL     UPPER    MARGINAL
+
+SEATTLE  .LOAD1      .         .        +INF       EPS       
+SEATTLE  .LOAD2      .        9.610     +INF       .         
+SEATTLE  .LOAD3      .       12.390     +INF       .         
+SAN-DIEGO.LOAD1      .       20.127     +INF       .         
+SAN-DIEGO.LOAD2      .        8.582     +INF       .         
+SAN-DIEGO.LOAD3      .         .        +INF       EPS       
+
+                       LOWER     LEVEL     UPPER    MARGINAL
+
+---- VAR Z              -INF  50708.970     +INF       .         
+
+  Z  Total transportation costs in thousands of dollars
+
+
+
+
+
+
+---- EQU SUPPLY  Observe supply limit at plant i
+
+             LOWER     LEVEL     UPPER    MARGINAL
+
+SEATTLE       -INF     22.000    22.000      EPS       
+SAN-DIEGO     -INF     46.437    27.000      .    INFES
+
+---- EQU DEMAND  Satisfy demand at market j
+
+         LOWER     LEVEL     UPPER    MARGINAL
+
+LOAD1    19.266    19.266     +INF   1000.000      
+LOAD2    25.069    25.069     +INF   1000.000      
+LOAD3    24.102    24.102     +INF   1000.000      
+
+---- VAR X  Shipment quantities in cases
+
+                   LOWER     LEVEL     UPPER    MARGINAL
+
+SEATTLE  .LOAD1      .         .        +INF       EPS       
+SEATTLE  .LOAD2      .       -2.102     +INF       .    INFES
+SEATTLE  .LOAD3      .       24.102     +INF       .         
+SAN-DIEGO.LOAD1      .       19.266     +INF       .         
+SAN-DIEGO.LOAD2      .       27.171     +INF       .         
+SAN-DIEGO.LOAD3      .         .        +INF       EPS       
+
+                       LOWER     LEVEL     UPPER    MARGINAL
+
+---- VAR Z              -INF  68437.283     +INF       .         
+
+  Z  Total transportation costs in thousands of dollars
+
+
+
+
+
+
+---- EQU SUPPLY  Observe supply limit at plant i
+
+             LOWER     LEVEL     UPPER    MARGINAL
+
+SEATTLE       -INF     22.000    22.000      EPS       
+SAN-DIEGO     -INF     28.090    27.000      .    INFES
+
+---- EQU DEMAND  Satisfy demand at market j
+
+         LOWER     LEVEL     UPPER    MARGINAL
+
+LOAD1    18.309    18.309     +INF   1000.000      
+LOAD2    12.506    12.506     +INF   1000.000      
+LOAD3    19.276    19.276     +INF   1000.000      
+
+---- VAR X  Shipment quantities in cases
+
+                   LOWER     LEVEL     UPPER    MARGINAL
+
+SEATTLE  .LOAD1      .         .        +INF       EPS       
+SEATTLE  .LOAD2      .        2.724     +INF       .         
+SEATTLE  .LOAD3      .       19.276     +INF       .         
+SAN-DIEGO.LOAD1      .       18.309     +INF       .         
+SAN-DIEGO.LOAD2      .        9.781     +INF       .         
+SAN-DIEGO.LOAD3      .         .        +INF       EPS       
+
+                       LOWER     LEVEL     UPPER    MARGINAL
+
+---- VAR Z              -INF  50089.978     +INF       .         
+
+  Z  Total transportation costs in thousands of dollars
+
+
+
+
+
+---- EQU SUPPLY  Observe supply limit at plant i
+
+             LOWER     LEVEL     UPPER    MARGINAL
+
+SEATTLE       -INF     22.000    22.000      EPS       
+SAN-DIEGO     -INF     26.775    27.000      .         
+
+---- EQU DEMAND  Satisfy demand at market j
+
+         LOWER     LEVEL     UPPER    MARGINAL
+
+LOAD1    16.258    16.258     +INF   1000.000      
+LOAD2    11.422    11.422     +INF   1000.000      
+LOAD3    21.094    21.094     +INF   1000.000      
+
+---- VAR X  Shipment quantities in cases
+
+                   LOWER     LEVEL     UPPER    MARGINAL
+
+SEATTLE  .LOAD1      .         .        +INF       EPS       
+SEATTLE  .LOAD2      .        0.906     +INF       .         
+SEATTLE  .LOAD3      .       21.094     +INF       .         
+SAN-DIEGO.LOAD1      .       16.258     +INF       .         
+SAN-DIEGO.LOAD2      .       10.516     +INF       .         
+SAN-DIEGO.LOAD3      .         .        +INF       EPS       
+
+                       LOWER     LEVEL     UPPER    MARGINAL
+
+---- VAR Z              -INF  48774.621     +INF       .         
+
+  Z  Total transportation costs in thousands of dollars
+
+
+
+
+
+---- EQU SUPPLY  Observe supply limit at plant i
+
+             LOWER     LEVEL     UPPER    MARGINAL
+
+SEATTLE       -INF     22.000    22.000      EPS       
+SAN-DIEGO     -INF     28.767    27.000      .    INFES
+
+---- EQU DEMAND  Satisfy demand at market j
+
+         LOWER     LEVEL     UPPER    MARGINAL
+
+LOAD1    15.310    15.310     +INF   1000.000      
+LOAD2    18.212    18.212     +INF   1000.000      
+LOAD3    17.245    17.245     +INF   1000.000      
+
+---- VAR X  Shipment quantities in cases
+
+                   LOWER     LEVEL     UPPER    MARGINAL
+
+SEATTLE  .LOAD1      .         .        +INF       EPS       
+SEATTLE  .LOAD2      .        4.755     +INF       .         
+SEATTLE  .LOAD3      .       17.245     +INF       .         
+SAN-DIEGO.LOAD1      .       15.310     +INF       .         
+SAN-DIEGO.LOAD2      .       13.457     +INF       .         
+SAN-DIEGO.LOAD3      .         .        +INF       EPS       
+
+                       LOWER     LEVEL     UPPER    MARGINAL
+
+---- VAR Z              -INF  50767.001     +INF       .         
+
+  Z  Total transportation costs in thousands of dollars
+
+
+
+---- EQU SUPPLY  Observe supply limit at plant i
+
+             LOWER     LEVEL     UPPER    MARGINAL
+
+SEATTLE       -INF     22.000    22.000      EPS       
+SAN-DIEGO     -INF     19.115    27.000      .         
+
+---- EQU DEMAND  Satisfy demand at market j
+
+         LOWER     LEVEL     UPPER    MARGINAL
+
+LOAD1    14.672    14.672     +INF   1000.000      
+LOAD2    13.705    13.705     +INF   1000.000      
+LOAD3    12.738    12.738     +INF   1000.000      
+
+---- VAR X  Shipment quantities in cases
+
+                   LOWER     LEVEL     UPPER    MARGINAL
+
+SEATTLE  .LOAD1      .         .        +INF       EPS       
+SEATTLE  .LOAD2      .        9.262     +INF       .         
+SEATTLE  .LOAD3      .       12.738     +INF       .         
+SAN-DIEGO.LOAD1      .       14.672     +INF       .         
+SAN-DIEGO.LOAD2      .        4.443     +INF       .         
+SAN-DIEGO.LOAD3      .         .        +INF       EPS       
+
+                       LOWER     LEVEL     UPPER    MARGINAL
+
+---- VAR Z              -INF  41114.597     +INF       .         
+
+  Z  Total transportation costs in thousands of dollars
+
+
+
+
+
+
+
+---- EQU SUPPLY  Observe supply limit at plant i
+
+             LOWER     LEVEL     UPPER    MARGINAL
+
+SEATTLE       -INF     22.000    22.000      EPS       
+SAN-DIEGO     -INF     13.785    27.000      .         
+
+---- EQU DEMAND  Satisfy demand at market j
+
+         LOWER     LEVEL     UPPER    MARGINAL
+
+LOAD1    15.475    15.475     +INF   1000.000      
+LOAD2    14.508    14.508     +INF   1000.000      
+LOAD3     5.803     5.803     +INF   1000.000      
+
+---- VAR X  Shipment quantities in cases
+
+                   LOWER     LEVEL     UPPER    MARGINAL
+
+SEATTLE  .LOAD1      .        1.689     +INF       .         
+SEATTLE  .LOAD2      .       14.508     +INF       .         
+SEATTLE  .LOAD3      .        5.803     +INF       .         
+SAN-DIEGO.LOAD1      .       13.785     +INF       .         
+SAN-DIEGO.LOAD2      .         .        +INF       EPS       
+SAN-DIEGO.LOAD3      .         .        +INF       EPS       
+
+                       LOWER     LEVEL     UPPER    MARGINAL
+
+---- VAR Z              -INF  35785.464     +INF       .         
+
+  Z  Total transportation costs in thousands of dollars
+
+
+
+
+
+
+
+
+
+  ---- EQU SUPPLY  Observe supply limit at plant i
+
+             LOWER     LEVEL     UPPER    MARGINAL
+
+SEATTLE       -INF     22.000    22.000      EPS       
+SAN-DIEGO     -INF     12.402    27.000      .         
+
+---- EQU DEMAND  Satisfy demand at market j
+
+         LOWER     LEVEL     UPPER    MARGINAL
+
+LOAD1    14.691    14.691     +INF   1000.000      
+LOAD2     9.856     9.856     +INF   1000.000      
+LOAD3     9.856     9.856     +INF   1000.000      
+
+---- VAR X  Shipment quantities in cases
+
+                   LOWER     LEVEL     UPPER    MARGINAL
+
+SEATTLE  .LOAD1      .        2.289     +INF       .         
+SEATTLE  .LOAD2      .        9.856     +INF       .         
+SEATTLE  .LOAD3      .        9.856     +INF       .         
+SAN-DIEGO.LOAD1      .       12.402     +INF       .         
+SAN-DIEGO.LOAD2      .         .        +INF       EPS       
+SAN-DIEGO.LOAD3      .         .        +INF       EPS       
+
+                       LOWER     LEVEL     UPPER    MARGINAL
+
+---- VAR Z              -INF  34402.405     +INF       .         
+
+  Z  Total transportation costs in thousands of dollars
+
+
+
+
+
+  ---- EQU SUPPLY  Observe supply limit at plant i
+
+             LOWER     LEVEL     UPPER    MARGINAL
+
+SEATTLE       -INF     22.000    22.000      EPS       
+SAN-DIEGO     -INF      9.472    27.000      .         
+
+---- EQU DEMAND  Satisfy demand at market j
+
+         LOWER     LEVEL     UPPER    MARGINAL
+
+LOAD1    15.649    15.649     +INF   1000.000      
+LOAD2     9.846     9.846     +INF   1000.000      
+LOAD3     5.977     5.977     +INF   1000.000      
+
+---- VAR X  Shipment quantities in cases
+
+                   LOWER     LEVEL     UPPER    MARGINAL
+
+SEATTLE  .LOAD1      .        6.177     +INF       .         
+SEATTLE  .LOAD2      .        9.846     +INF       .         
+SEATTLE  .LOAD3      .        5.977     +INF       .         
+SAN-DIEGO.LOAD1      .        9.472     +INF       .         
+SAN-DIEGO.LOAD2      .         .        +INF       EPS       
+SAN-DIEGO.LOAD3      .         .        +INF       EPS       
+
+                       LOWER     LEVEL     UPPER    MARGINAL
+
+---- VAR Z              -INF  31471.865     +INF       .         
+
+  Z  Total transportation costs in thousands of dollars
+
+
+
+
+
+
+
+
+
+
+
+
+
+
