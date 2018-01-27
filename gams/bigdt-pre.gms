@@ -1,13 +1,11 @@
 SETS
         I       'Generator'       / GEN1, GEN2 /
-        J       'Load'            / LOAD1, LOAD2, LOAD3 / 
+        J       'Load'            / LOAD1, LOAD2, LOAD3 /
         T       'Time'            / 1 * 24 / ;
 
 PARAMETERS
-        UNCERTAINTY     'Uncertainly value of load'
-
         A(I)    'Capacity of generator'
-                / GEN1       22
+                / GEN1     22
                   GEN2     27 /
 
         PRICE(T) 'Price of power'
@@ -34,9 +32,9 @@ PARAMETERS
                   21    104.6942
                   22    105.1309
                   23    104.5201
-                  24    99.9302  / ;
+                  24    99.9302  /
 
-        UNCERTAINTY  =  UNIFORM(0.95, 1.05)
+        UNCERTAINTY(J) ;
 
 TABLE LOAD(T, J)   'Load (MWh)'
                         LOAD1    LOAD2    LOAD3
@@ -70,6 +68,7 @@ TABLE D(I, J)   'Transmission fee'
         GEN1           650        650       650
         GEN2           650        650       650 ;
 
+
 VARIABLES
         X(I, J)         'Power consumption quantities'
         Z               'Total costs of the power grid' ;
@@ -81,11 +80,32 @@ SCALAR POWER_COST 'Cost of power generator per MWh' / 350 / ;
 EQUATIONS
         COST            'Objective function'
         SUPPLY(I)       'Power supply at Gen I'
-        DEMAND(J)       'Power demand at Load J';
+        DEMAND(J)       'Power demand at Load J' ;
 
-COST ..             Z         =E=  SUM((I, J), ( D(I, J) + POWER_COST) * X(I, J)) ;
+UNCERTAINTY(J)                 =   NORMAL(LOAD('24', J), 1);
+COST ..             Z         =E=  SUM((I, J), (D(I, J) + POWER_COST) * X(I, J)) ;
 SUPPLY(I) .. SUM(J, X(I, J))  =L=  A(I) ;
-DEMAND(J) .. SUM(I, X(I, J))  =G=  LOAD('1', J) * UNCERTAINTY ;
+DEMAND(J) .. SUM(I, X(I, J))  =G=  UNCERTAINTY(J) ;
 
 MODEL POWER_GRID /ALL/ ;
 SOLVE POWER_GRID USING LP MINIMIZING Z;
+
+
+File results / POWER_GRID_RESULT.txt /;
+results.ap = 1
+put results;
+loop((I,J),
+  put X.l(I,J)
+
+);
+put Z.l  /
+putclose;
+
+File dataset / POWER_GRID_DATASET.txt /;
+dataset.ap = 1
+put dataset;
+loop((J),
+  put DEMAND.l(J)
+);
+put /
+putclose;
