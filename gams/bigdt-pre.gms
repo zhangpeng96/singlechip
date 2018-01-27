@@ -38,7 +38,6 @@ PARAMETERS
 
         UNCERTAINTY  =  UNIFORM(0.95, 1.05)
 
-
 TABLE LOAD(T, J)   'Load (MWh)'
                         LOAD1    LOAD2    LOAD3
                    1    13.23    17.23    8.23
@@ -71,7 +70,6 @@ TABLE D(I, J)   'Transmission fee'
         GEN1           650        650       650
         GEN2           650        650       650 ;
 
-
 VARIABLES
         X(I, J)         'Power consumption quantities'
         Z               'Total costs of the power grid' ;
@@ -90,4 +88,4 @@ SUPPLY(I) .. SUM(J, X(I, J))  =L=  A(I) ;
 DEMAND(J) .. SUM(I, X(I, J))  =G=  LOAD('1', J) * UNCERTAINTY ;
 
 MODEL POWER_GRID /ALL/ ;
-SOLVE POWER_GRID USING LP MAXIMIZING Z;
+SOLVE POWER_GRID USING LP MINIMIZING Z;
