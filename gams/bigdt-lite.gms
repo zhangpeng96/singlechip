@@ -50,7 +50,7 @@ EQUATIONS
 COST ..             Z         =E=  SUM((I, J), C(I, J) * X(I, J)) ;
 SUPPLY(I) .. SUM(J, X(I, J))  =L=  A(I) ;
 DEMAND(J) .. SUM(I, X(I, J))  =G=  LOAD('1', J) ;
-TEST .. OUTPUT =E= SUM(J,SUM(T,LOAD(T,J)));
+TEST .. OUTPUT =E= SUM(T, PR(T));
 
 
 MODEL TRANSPORT /ALL/ ;
