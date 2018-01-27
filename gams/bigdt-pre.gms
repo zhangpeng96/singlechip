@@ -1,13 +1,13 @@
 SETS
         I       'Canning plants'  / SEATTLE, SAN-DIEGO /
-        J       'Markets'         / LOAD1, LOAD2, LOAD3 / 
+        J       'Markets'         / LOAD1, LOAD2, LOAD3 /
         T       'Markets'         / 1 * 24 / ;
 
 PARAMETERS
         A(I)    'Capacity of plant i in cases'
                 / SEATTLE       22
                   SAN-DIEGO     27 /
-                  
+
         PRICE(T) 'SELL PRICE'
                 / 1    96.7687
                   2    89.9511
@@ -69,9 +69,6 @@ TABLE D(I, J)   'Distance in thousands of miles'
 
 SCALAR POWER_COST 'Freight in dollars per case per thousand miles' / 350 / ;
 
-PARAMETER C(I, J)       'Transport cost in thousands of dollars per case' ;
-          C(I, J) = F * D(I, J) / 1000 ;
-
 VARIABLES
         X(I, J)         'Shipment quantities in cases'
         Z               'Total transportation costs in thousands of dollars' ;
@@ -83,9 +80,9 @@ EQUATIONS
         SUPPLY(I)       'Observe supply limit at plant i'
         DEMAND(J)       'Satisfy demand at market j';
 
-COST ..             Z         =E=  SUM((I, J), C(I, J) * X(I, J)) ;
+COST ..             Z         =E=  SUM((I, J), ( D(I, J) + POWER_COST) * X(I, J)) ;
 SUPPLY(I) .. SUM(J, X(I, J))  =L=  A(I) ;
-DEMAND(J) .. SUM(I, X(I, J))  =G=  B(J) ;
+DEMAND(J) .. SUM(I, X(I, J))  =G=  LOAD('2', J) ;
 
 MODEL TRANSPORT /ALL/ ;
-SOLVE TRANSPORT USING LP MAXIMIZING Z;
+SOLVE TRANSPORT USING LP MINIMIZING Z;
